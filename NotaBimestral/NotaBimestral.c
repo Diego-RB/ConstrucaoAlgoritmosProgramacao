@@ -9,7 +9,7 @@ int main() {
         soma = soma + nota;
     }
     media = soma/4;
-    printf("A media eh : %f",media);
-    printf("A some eh : %f",soma);
+    printf("A media eh : %.2f",media);
+    printf("A some eh : %.2f",soma);
     return 0;
 }
